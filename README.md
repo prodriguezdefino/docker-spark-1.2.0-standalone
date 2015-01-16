@@ -13,11 +13,7 @@ Then find image's ID with:
 docker images
 ```
 
-Now if we run
-
-```docker run -i -t <IMAGE-ID> /etc/bootstrap.sh -bash``` 
-
-we will be able to access to the container instance. Finally we need to run the Spark console with the command:
+Now if we run ```docker run -i -t <IMAGE-ID> /etc/bootstrap.sh -bash``` we will be able to access to the container instance. Finally we need to run the Spark console with the command:
 ```
 spark-shell --master yarn-client --driver-memory 1g --executor-memory 1g --executor-cores 1
 ```

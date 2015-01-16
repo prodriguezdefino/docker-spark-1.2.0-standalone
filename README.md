@@ -17,4 +17,4 @@ Now if we run ```docker run -i -t <IMAGE-ID> /etc/bootstrap.sh -bash``` we will 
 ```
 spark-shell --master yarn-client --driver-memory 1g --executor-memory 1g --executor-cores 1
 ```
-and then scala console will show.
+and then Scala's interactive console will show.

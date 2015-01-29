@@ -1,6 +1,6 @@
 ## Apache Spark Standalone image
 #
-FROM prodriguezdefino/spark-1.2.0-base
+FROM prodriguezdefino/sparkbase:1.2.0
 MAINTAINER prodriguezdefino prodriguezdefino@gmail.com
 
 CMD ["/etc/bootstrap.sh", "-d"]

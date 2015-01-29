@@ -3,4 +3,6 @@
 FROM prodriguezdefino/sparkbase:1.2.0
 MAINTAINER prodriguezdefino prodriguezdefino@gmail.com
 
+EXPOSE 4040
+
 CMD ["/etc/bootstrap.sh", "-d"]

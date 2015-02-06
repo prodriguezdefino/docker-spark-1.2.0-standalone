@@ -1,6 +1,6 @@
 ## Apache Spark Standalone image
 #
-FROM prodriguezdefino/sparkbase:1.2.0
+FROM prodriguezdefino/sparkbase
 MAINTAINER prodriguezdefino prodriguezdefino@gmail.com
 
 EXPOSE 4040
